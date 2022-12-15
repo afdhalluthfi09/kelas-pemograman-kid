@@ -1,0 +1,17 @@
+
+.gambar{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+    background-image: url('mobil2.jpeg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: bottom right;
+    /* background-size: 100% 100%; */
+    /* border-radius: 50%; */
+    /* border:15px solid blue; */
+}
+.border{
+    border-radius: 10px;
+    border:15px solid blue;
+}

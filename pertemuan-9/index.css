@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: transparent;
+}
+.kartu{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5 3 10px 0 rgba(247, 241, 241, 0.5);
+    background-image: url('gunung.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(0, 0);
+}
+
+.kartu-gambar{
+    width:200px;
+    height: 100px;
+    /* background-color: blue; */
+    /* cara masukin gambar ke css */
+        background-image: url('gunung.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    /* peuntup gambar */
+    margin-top: 12px;
+    margin-left: 12px;
+    /* display untuk div ketengah */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    /* pentup display */
+    border-radius: 40px;
+    
+}
+
+.kartu-gambar:hover{
+   border-radius: 0;
+    transition: 0.5s;
+}
+
+.octagon {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: relative;
+  }
+.octagon:before {
+content: "";
+width: 20px;
+height: 0;
+position: absolute;
+top: 0;
+left: 0;
+border-bottom: 15px solid red;
+border-left: 15px solid #fff;
+border-right: 15px solid #fff;
+}
+.octagon:after {
+content: "";
+width: 20px;
+height: 0;
+position: absolute;
+bottom: 0;
+left: 0;
+border-top: 15px solid red;
+border-left: 15px solid #fff;
+border-right: 15px solid #fff;
+}
+
+.kartu:hover{
+    transform: translate(0, -10px);
+    transition: 0.5s;
+}
+
+.tv-screen {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    background: red;
+    border-radius: 50% / 10%;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .tv-screen:before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+  }
+
+  .triangle-right {
+    width: 0;
+    height: 0;
+    left: 12px;
+    top:3px;
+
+    border-top: 15px solid transparent;
+    border-left: 30px solid #fff;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+  }

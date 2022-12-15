@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.hover-1 {
+  background-image: linear-gradient(#1095c1 0 0);
+  background-size: 0;
+  background-repeat: no-repeat;
+  /*transition: .4s;*/
+   transition: .4s,background-position 0s;
+}
+.hover-2 {
+  background-image: linear-gradient(#1095c1 0 0);
+  background-size: 0;
+  background-repeat: no-repeat;
+  /*transition: .4s;*/
+   transition: .4s,background-position 0s;
+}
+
+.hover-1:hover {
+  background-size: 100%;
+  color:#ffff;
+  background-position:right;
+}
+.hover-2:hover {
+  background-size: 100%;
+  color:#ffff;
+  background-position:left;
+}
+
+
+.hover-3 {
+  background-image: linear-gradient(#1095c1 0 0);
+  background-size: 200% .08em; /* .08em is our fixed height, use what you want  */
+  background-position: 200% 100%;
+  background-repeat: no-repeat;
+  transition: background-size .3s, background-position .3s .3s;
+}
+.hover-3:hover {
+  transition: background-size .3s .3s, background-position .3s;
+  background-size: 200% 100%;
+  background-position: 100% 100%;
+}
+
+.hover-4 {
+  background-image:
+    linear-gradient(#1095c1 0 0),
+    linear-gradient(#1095c1 0 0);
+  background-repeat: no-repeat;
+  background-size: 50% .08em;
+  background-position:
+    -100% 100%,
+    200% 0;
+  transition: background-size .3s, background-position .3s .3s;
+}
+.hover-4:hover {
+  background-size: 50% 100%;
+  background-position:
+    0 100%,
+    100% 0;  
+  transition: background-size .3s .3s, background-position .3s;
+}
+
+
+.hover-5 {
+  --c: #1095c1;
+  line-height: 1.2em;
+  background-image:
+    conic-gradient(from -135deg at 100%  50%, var(--c) 90deg, #0000 0),
+    conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0);
+  background-position:
+    0 0,
+    100% 0;
+  background-size: 0% 200%;
+  background-repeat: no-repeat;
+  transition: background-size .4s, background-position 0s;
+}
+.hover-5:hover {
+  background-size: calc(50% + .6em) 200%;
+  background-position:
+    0 100%,
+    100% 100%;
+}
+</style>
+</head>
+<body>
+
+<h1 class="hover-1">The transition Property</h1>
+<h1 class="hover-2">The transition Property</h1>
+<h1 class="hover-3">The transition Property</h1>
+<h1 class="hover-4">The transition Property</h1>
+<h1 class="hover-5">The transition Property</h1>
+
+
+<p>Hover over the div element below, to see the transition effect:</p>
+
+<div></div>
+
+</body>
+</html>

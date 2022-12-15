@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: aliceblue;
+    background-color: #000;
+}
+.text-center{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.kotak{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+.kotak-kecil{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+.flex-kiri{
+    justify-content: flex-start;
+}
+.flex-tengah{
+    justify-content: center;
+}
+.flex-kanan{
+    justify-content: flex-end;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}

@@ -1,0 +1,19 @@
+.text-red{
+    color: red;
+}
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: #bada55;
+    text-align: center;
+    line-height: 100px;
+    margin: 3px;
+    transition: 1s;
+    box-shadow: #bada55 15px 10px 5px;
+}
+
+.text-bayangan{
+    text-shadow: 12px 12px 2px #bada55;
+}
+

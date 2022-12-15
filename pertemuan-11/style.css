@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+}
+.navigasi{
+    display: flex;
+    width: 200px;
+    list-style: none;
+    justify-content: space-between;
+}
+.setting{
+    display: flex;
+    width: 200px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.image-hero{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.image-sub-hero{
+    border-radius: 4px;
+    width: 960px;
+    height: 300px;
+}
+.container{
+    /* background-color:blue; */
+    margin-top: 13px;
+    padding: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.side-conten{
+    /* background-color: red; */
+    width: 400px;
+    height: 300px;
+    margin-top: 13px;
+}
+.main-conten{
+    /* background-color: green; */
+    width: 800px;
+    height: 300px;
+    margin-top: 13px;
+}
+.card{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 1em;
+}
+.card-body{
+    padding: 12px 1em;
+}
+.margin-top{
+    margin-top: 13px;
+}
+.card-main{
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 1em 10px;
+}
+.card-sub-circle{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.card-main-header{
+    display: flex;
+    flex-shrink: 2;
+    align-items: center;
+    gap: 6px;
+}
