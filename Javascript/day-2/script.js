@@ -24,9 +24,11 @@ let total =nomor1 + nomor2;
 let totalPengurangan=nomor1-nomor2;
 let totalPembagian=nomor1/nomor2;
 let totalPerkalian=nomor1*nomor2;
-(34 +30)x30-(40*45)/30
 let totalKompleks=(nomor1 + nomor2)*totalPembagian -(totalPembagian *totalPerkalian)/nomor2;
 console.log('jumlah dari perhitungan 34 + 30 = '+total);
-console.log('jumlah dari perhitungan 34 - 30 = '+totalPengurangan);
-console.log('jumlah dari perhitungan 34 / 30 = '+totalPembagian);
-console.log('jumlah dari perhitungan 34 * 30 = '+totalPerkalian);
+console.log('jumlah dari pengurangan 34 - 30 = '+totalPengurangan);
+console.log('jumlah dari pembagian 34 / 30 = '+totalPembagian);
+console.log('jumlah dari perkalian 34 * 30 = '+totalPerkalian);
+console.log('jumlah dari perkalian 34 * 30 = '+totalPerkalian);
+console.log(`jumlah komplek dari perhitungan 
+(${nomor1} +${nomor2}) x ${totalPembagian} - (${totalPembagian} x ${totalPerkalian}) / ${nomor2} = ${totalKompleks} `);
