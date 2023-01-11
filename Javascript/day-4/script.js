@@ -17,24 +17,6 @@ console.log(angka);
 console.log(campur);
 
 
-
-//umar
-/* 
-    buat array nama-nama nabi sebanyak 5
-    tambahakan menggunakan attribute push untuk 5 nama nabi
-    hapus nama nabi sebanyak 2 kali dengan  atribute sift
-    tampilkan nama nabi dengan urtan ke 3
-    tampilan pajang isi dari array namanabi
-*/
-//abdurrahman
-/* 
-    buat array nama-nama shabat sebanyak 5
-    tambahakan menggunakan attribute unsift untuk 5 nama sahabat nabi
-    hapus nama sahabat sebanyak 2 kali dengan  atribute sift
-    tampilkan nama shabat dengan urtan ke 3
-    tampilan pajang isi dari array namanabi
-*/
-
 //jawaban no 1;
 let ikan =5;
 let sayur=1;
